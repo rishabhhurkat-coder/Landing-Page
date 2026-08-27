@@ -90,6 +90,7 @@ H&L Software is building practical products for teams that value clear workflows
 
 - **Founder and builder:** [Rishabh Hurkat](https://github.com/rishabhhurkat-coder)
 - **Website:** [hnlsoftware.in](https://hnlsoftware.in)
+- **Email:** [rishabhhurkat@gmail.com](mailto:rishabhhurkat@gmail.com)
 - **Project inquiries:** [Use the contact page](https://hnlsoftware.in/contact)
 - **Technical discussion:** [Open a GitHub issue](https://github.com/rishabhhurkat-coder/Landing-Page/issues)
 
