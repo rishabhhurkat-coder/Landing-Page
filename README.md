@@ -10,6 +10,12 @@
 
 The H&L Software landing page is a modern, responsive marketing experience built to introduce the company, explain its product direction, and give potential customers and collaborators a clear way to get in touch.
 
+## Product preview
+
+![H&L Software product portfolio preview](App/src/assets/images/hl-product-dashboard-hero.png)
+
+The landing page turns this product vision into a public experience with clear positioning, product discovery, and direct paths to start a conversation.
+
 ## What the site communicates
 
 - A concise H&L Software product story
