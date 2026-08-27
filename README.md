@@ -1,182 +1,98 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=220&section=header&text=H%26L%20Software&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20that%20runs%20your%20world&descAlignY=58&descSize=20" alt="H&L Software hero banner" width="100%" />
+# H&L Software Landing Page
+
+> The public-facing website for H&L Software: a clear front door to the products, capabilities, and people behind the portfolio.
+
+<p>
+  <a href="https://hnlsoftware.in"><strong>Visit the live website</strong></a> ·
+  <a href="https://hnlsoftware.in/contact"><strong>Start a conversation</strong></a> ·
+  <a href="https://github.com/rishabhhurkat-coder"><strong>Connect with Rishabh</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://hnlsoftware.in"><img src="https://img.shields.io/badge/Live%20Site-hnlsoftware.in-2563EB?style=for-the-badge" alt="Live site" /></a>
-  <img src="https://img.shields.io/badge/status-phase%201-7C3AED?style=for-the-badge" alt="Phase 1" />
-  <img src="https://img.shields.io/badge/license-proprietary-111827?style=for-the-badge" alt="Proprietary license" />
-</p>
+The H&L Software landing page is a modern, responsive marketing experience built to introduce the company, explain its product direction, and give potential customers and collaborators a clear way to get in touch.
 
-<h1 align="center">H&L Software</h1>
+## What the site communicates
 
-<p align="center">A modern landing website for H&L Software built using React, Vite and TypeScript.</p>
+- A concise H&L Software product story
+- Product areas across trading, automation, billing, and workflow tools
+- Clear routes for products, solutions, pricing, about, and contact
+- A polished visual system with responsive layouts and reusable components
+- A fast, SEO-conscious frontend ready for Cloudflare Pages
 
-## ✨ Project Description
+## Technology
 
-H&L Software is a polished, responsive marketing website for a growing software company building trading systems, billing software, mobile tools, and custom workflow solutions.
+| Area | Technology |
+| --- | --- |
+| UI | React and TypeScript |
+| Tooling | Vite, ESLint, Prettier |
+| Styling | Custom CSS tokens, utilities, and animations |
+| Icons and motion | Lucide React and Framer Motion |
+| Deployment | Cloudflare Pages |
 
-The current release is Phase 1: a frontend-only public landing website designed for fast iteration and deployment on Cloudflare Pages.
-
-## 🚀 Features
-
-- Responsive UI across desktop, tablet, and mobile
-- Modern SaaS landing page experience
-- Trading product showcase
-- Billing software showcase
-- Mobile app showcase
-- Fast Vite-powered loading
-- SEO-friendly public metadata
-- Lazy-loaded routes
-- Cloudflare Pages ready
-
-## 🧰 Technology Stack
-
-| Technology              | Purpose                                                                 |
-| ----------------------- | ----------------------------------------------------------------------- |
-| React                   | Component-based UI                                                      |
-| TypeScript              | Type-safe application code                                              |
-| Vite                    | Development server and production bundling                              |
-| Custom CSS architecture | Global tokens, typography, utilities, animations, and responsive layout |
-| Framer Motion           | Entrance and interaction animations                                     |
-| Lucide React            | Consistent interface icons                                              |
-| React Router            | Public page routing and lazy loading                                    |
-
-## 📁 Folder Structure
+## Project structure
 
 ```text
-Website Development/
-├── App/
-│   ├── public/              # Public metadata and static assets
-│   ├── src/
-│   │   ├── Components/      # Components shared by multiple pages
-│   │   │   ├── layout/      # Navbar, Footer, and MainLayout
-│   │   │   └── ui/          # Button, Card, Container, and Icon primitives
-│   │   ├── pages/           # Route-level page modules
-│   │   │   └── <Page>/Components/ # Components owned by one page
-│   │   ├── styles/          # Global CSS split by responsibility
-│   │   ├── types/           # Shared TypeScript types
-│   │   ├── hooks/           # Reusable React hooks
-│   │   ├── utils/           # Shared utilities
-│   │   ├── App.tsx          # Router and application shell
-│   │   └── main.tsx         # React entry point
-│   ├── index.html           # Vite HTML entry
-│   ├── package.json         # App scripts and dependencies
-│   └── vite.config.ts       # Vite configuration
-├── Assets/                  # Project-level asset workspace
-├── Documentation/           # Project documentation and screenshots
-├── AGENTS.md                # Local project operating instructions
-├── LICENSE.md               # Proprietary license
-└── Launch Website Development.cmd
+App/
+  public/       Static assets, metadata, sitemap, and favicon
+  src/
+    Components/ Shared layout and UI primitives
+    pages/      Route-level page modules
+    styles/     Global styles and design tokens
+    App.tsx     Application shell and routing
+    main.tsx    React entry point
+Assets/         Project-level asset workspace
+Documentation/  Screenshots and supporting documentation
 ```
 
-<details>
-  <summary>Page routes</summary>
+## Routes
 
-| Route        | Page      |
-| ------------ | --------- |
-| `/`          | Home      |
-| `/products`  | Products  |
-| `/solutions` | Solutions |
-| `/pricing`   | Pricing   |
-| `/about`     | About     |
-| `/contact`   | Contact   |
+| Route | Purpose |
+| --- | --- |
+| `/` | H&L Software home page |
+| `/products` | Product overview |
+| `/solutions` | Solutions and use cases |
+| `/pricing` | Pricing direction |
+| `/about` | Company and product story |
+| `/contact` | Conversation and project inquiries |
 
-</details>
+## Run locally
 
-## 🛠️ Getting Started
-
-All application commands run from the `App/` directory.
-
-### Installation
+All application commands run from `App/`:
 
 ```bash
 cd App
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-### Production Build
+Create a production build or run quality checks with:
 
 ```bash
 npm run build
-```
-
-### Preview
-
-```bash
-npm run preview
-```
-
-### Quality Checks
-
-```bash
 npm run lint
 npm run format:check
 ```
 
-## ☁️ Deployment
+## Deployment
 
-### Cloudflare Pages
+The site is designed for Cloudflare Pages:
 
-| Setting          | Value            |
-| ---------------- | ---------------- |
-| Framework preset | Vite             |
-| Root directory   | `App`            |
-| Build command    | `npm run build`  |
-| Output directory | `dist`           |
-| Custom domain    | `hnlsoftware.in` |
+| Setting | Value |
+| --- | --- |
+| Framework | Vite |
+| Root directory | `App` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+| Live domain | [hnlsoftware.in](https://hnlsoftware.in) |
 
-For SPA navigation, configure Cloudflare Pages history fallback so public routes resolve to `index.html`.
+## Work with H&L Software
 
-## 🗺️ Roadmap
+H&L Software is building practical products for teams that value clear workflows, reliable automation, and thoughtful user experiences. If you have a product idea, an internal process worth improving, or a collaboration in mind, I’d be glad to hear from you.
 
-| Phase   | Scope            |
-| ------- | ---------------- |
-| Phase 1 | Landing Website  |
-| Phase 2 | Billing Software |
-| Phase 3 | Trading Platform |
-| Phase 4 | Mobile App       |
-| Phase 5 | Backend API      |
+- **Founder and builder:** [Rishabh Hurkat](https://github.com/rishabhhurkat-coder)
+- **Website:** [hnlsoftware.in](https://hnlsoftware.in)
+- **Project inquiries:** [Use the contact page](https://hnlsoftware.in/contact)
+- **Technical discussion:** [Open a GitHub issue](https://github.com/rishabhhurkat-coder/Landing-Page/issues)
 
-## 🖼️ Screenshots
+## License
 
-Screenshots will be added to `Documentation/screenshots/` as the product surface evolves.
-
-| Surface      | Placeholder                                  |
-| ------------ | -------------------------------------------- |
-| Hero Section | `Documentation/screenshots/hero-section.png` |
-| Products     | `Documentation/screenshots/products.png`     |
-| Solutions    | `Documentation/screenshots/solutions.png`    |
-| Pricing      | `Documentation/screenshots/pricing.png`      |
-| Footer       | `Documentation/screenshots/footer.png`       |
-
-## 🤝 Contributing
-
-This is a private proprietary project. Proposed changes should be discussed with the H&L Software team before opening a pull request.
-
-<details>
-  <summary>Contribution checklist</summary>
-
-1. Keep changes scoped to the requested feature or fix.
-2. Preserve the existing visual language unless a redesign is explicitly approved.
-3. Run `npm run lint`, `npm run format:check`, and `npm run build` from `App/`.
-4. Update documentation when project structure or deployment settings change.
-
-</details>
-
-## 📄 License
-
-Copyright © 2026 H&L Software. All Rights Reserved.
-
-This source code is proprietary. See [LICENSE.md](LICENSE.md) for the complete terms.
-
-## 👤 Author
-
-**Rishabh Hurkat**  
-Founder, H&L Software
+Copyright © 2026 H&L Software. All rights reserved. This public repository is presented as a product and engineering portfolio; contact the author before reusing production code or assets.
