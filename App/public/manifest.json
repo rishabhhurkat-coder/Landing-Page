@@ -1,0 +1,10 @@
+{
+  "name": "H&L Software",
+  "short_name": "H&L Software",
+  "description": "Software that runs your world.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": []
+}

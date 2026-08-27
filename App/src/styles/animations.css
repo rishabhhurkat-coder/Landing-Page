@@ -1,0 +1,14 @@
+.nav-links a::after {
+  transition: right 0.25s ease;
+}
+.get-started,
+.theme-toggle,
+.button,
+.feature-card,
+.feature-content a {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    gap 0.25s ease;
+}

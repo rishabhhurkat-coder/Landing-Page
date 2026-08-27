@@ -1,0 +1,76 @@
+.brand-name {
+  font-size: 29px;
+  letter-spacing: -0.055em;
+  line-height: 0.85;
+  font-weight: 700;
+}
+.brand-name span {
+  font-weight: 500;
+}
+.brand-name small {
+  display: block;
+  letter-spacing: 0.16em;
+  font-size: 8px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.nav-links a {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.eyebrow {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.hero-copy h1 {
+  font-size: clamp(60px, 6.25vw, 96px);
+  line-height: 0.95;
+  letter-spacing: -0.067em;
+  font-weight: 900;
+}
+.hero-copy p {
+  font-size: 18px;
+  line-height: 1.65;
+  letter-spacing: -0.025em;
+}
+.button {
+  font-size: 15px;
+}
+.card-heading {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+.card-heading strong {
+  font-size: 13px;
+}
+.feature-content h2 {
+  font-size: 17px;
+  letter-spacing: -0.035em;
+}
+.feature-content p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.feature-content a {
+  font-size: 14px;
+}
+.trusted-label {
+  font-size: 12px;
+}
+.trusted-brands span {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+.placeholder-page h1 {
+  font-size: clamp(56px, 8vw, 96px);
+  line-height: 0.95;
+  letter-spacing: -0.067em;
+}
+.placeholder-page p {
+  color: #69717f;
+  font-size: 18px;
+  line-height: 1.65;
+}

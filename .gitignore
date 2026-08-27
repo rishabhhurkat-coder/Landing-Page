@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+App/node_modules/
+
+# Build output
+dist/
+App/dist/
+build/
+.cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local tooling
+*.log
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build metadata
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+
+# Local ChatGPT project reference mirror
+sources/
